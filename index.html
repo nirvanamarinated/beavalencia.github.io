@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <h1>゛Welcome to My Website ⸝⸝.ᐟ⋆</h1>
+    <p>Explore my projects, learn about me, and connect!</p>
+  <nav>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+  </header>
+
+  <section class="intro">
+    <img src="welcome.gif" alt="My GIF">
+    <p> This website serves as a portfolio showcasing a range of technical projects and applications. 
+  It highlights work in system development, desktop applications, and interactive media, 
+  demonstrating skills in programming, database integration, and user interface design. 
+  The content is organized to provide clear insight into project objectives, 
+  implementation methods, and outcomes, offering a structured overview of technical capabilities.
+</p>
+  </section>
+  <script>
+  function toggleMenu() {
+    const nav = document.querySelector('.nav-links');
+    nav.classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
